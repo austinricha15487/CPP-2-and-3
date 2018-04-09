@@ -26,7 +26,7 @@ int main()
 	if (hoursWorked <= 40)
 	{
 		normalPay = hoursWorked * hourlyPay;
-
+		grossPay = hoursWorked * hourlyPay;
 	}
 	if(hoursWorked > 40)
 	 {
